@@ -1,0 +1,55 @@
+html {
+    font-size: 16px;
+    background-color: aquamarine;
+}
+
+#content {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#header {
+    padding: 10px;
+    text-align: center;
+}
+
+#header > img {
+    max-width: 168px;
+}
+
+#header > h1 {
+    margin: 0;
+    padding: 10px;
+}
+
+#table {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+#table > .item {
+    width: 50%;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid black;
+}
+
+.page_link {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    color: unset;
+    cursor: pointer;
+    text-decoration: unset;
+}
+
+.page_link > .icon {
+    max-width: 25%;
+    max-width: 100px;
+    margin: 0px 45px;
+}

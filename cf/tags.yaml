@@ -1,0 +1,5 @@
+---
+sec:datatype: application
+ops:name: RLS-Directory
+ops:origin: github.com/calza27/RLS-Directory
+client: darren.arthur
