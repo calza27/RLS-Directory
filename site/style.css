@@ -31,10 +31,13 @@ html {
 }
 
 #table > .item {
-    width: 50%;
+    width: 100%;
+    max-width: 750px;
     padding: 10px;
     margin: 5px;
     border: 1px solid black;
+    border-radius: 65px;
+    background-color: #faee01;
 }
 
 .page_link {
@@ -51,5 +54,10 @@ html {
 .page_link > .icon {
     max-width: 25%;
     max-width: 100px;
-    margin: 0px 45px;
+    margin: 0px 45px 0px 20px;
+}
+
+.page_link > .label {
+    font-weight: bold;
+    font-size: 18pt;
 }
